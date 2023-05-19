@@ -39,9 +39,9 @@ resource "azurerm_kubernetes_cluster" "main" {
     avm_git_commit           = "bb858b143c94abf2d08c88de77a0054ff5f85db5"
     avm_git_file             = "main.tf"
     avm_git_last_modified_at = "2023-03-06 06:02:33"
-    avm_git_org              = "Azure"
+    avm_git_org              = "rashid-boyko"
     avm_git_repo             = "terraform-azurerm-aks"
-    avm_yor_trace            = "fc82cc46-3b3b-4f4c-adea-d60fe76fdedd"
+    avm_yor_trace            = "0da71b05-94c2-47f3-a3b7-87ae2ee7e030"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
   workload_identity_enabled = var.workload_identity_enabled
 
@@ -515,9 +515,9 @@ resource "azurerm_kubernetes_cluster_node_pool" "node_pool" {
     avm_git_commit           = "bc0c9fab9ee53296a64c7a682d2ed7e0726c6547"
     avm_git_file             = "main.tf"
     avm_git_last_modified_at = "2023-05-04 05:02:32"
-    avm_git_org              = "Azure"
+    avm_git_org              = "rashid-boyko"
     avm_git_repo             = "terraform-azurerm-aks"
-    avm_yor_trace            = "7a20aff2-303d-4e7c-9b6a-8884d8131aa8"
+    avm_yor_trace            = "a9942ac2-12a0-4834-8e74-0eeb705e6471"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
   ultra_ssd_enabled = each.value.ultra_ssd_enabled
   vnet_subnet_id    = each.value.vnet_subnet_id
@@ -649,9 +649,9 @@ resource "azurerm_log_analytics_workspace" "main" {
     avm_git_commit           = "19e15ed0d702f96ddd9f9d66d4de41f627251fcd"
     avm_git_file             = "main.tf"
     avm_git_last_modified_at = "2022-09-30 12:14:28"
-    avm_git_org              = "Azure"
+    avm_git_org              = "rashid-boyko"
     avm_git_repo             = "terraform-azurerm-aks"
-    avm_yor_trace            = "ee3328af-a9e7-4839-9ecd-227d58660c93"
+    avm_yor_trace            = "440c3892-89c6-4400-82ec-5437c96fcb83"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
 }
 
@@ -672,9 +672,9 @@ resource "azurerm_log_analytics_solution" "main" {
     avm_git_commit           = "e3016f23f676fcd2c1b07dd49a22f975d1616ab6"
     avm_git_file             = "main.tf"
     avm_git_last_modified_at = "2022-09-30 12:36:26"
-    avm_git_org              = "Azure"
+    avm_git_org              = "rashid-boyko"
     avm_git_repo             = "terraform-azurerm-aks"
-    avm_yor_trace            = "0d3ff2f3-b87c-4e3a-83b6-bbc8f304c06e"
+    avm_yor_trace            = "3955d3b2-0af2-498b-bdd4-cf0369a4c36e"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
 
   plan {
